@@ -1,7 +1,8 @@
 {
   "name": "@reconta/site",
-  "private": true,
+  "description": "Reconta site",
   "version": "1.0.0",
+  "private": true,
   "type": "module",
   "scripts": {
     "dev": "bunx --bun vite",

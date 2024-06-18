@@ -14,6 +14,20 @@
 			"presentation": {
 				"reveal": "never"
 			}
+		},
+		{
+			"label": "bun: dev - apps/api",
+			"detail": "bunx --bun vite",
+			"type": "npm",
+			"script": "dev",
+			"path": "apps/api",
+			"problemMatcher": [],
+			"runOptions": {
+				"runOn": "folderOpen"
+			},
+			"presentation": {
+				"reveal": "never"
+			}
 		}
 	]
 }

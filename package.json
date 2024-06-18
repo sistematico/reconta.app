@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "author": "Lucas Saliés Brum <paxa@paxa.dev> (https://paxa.dev)",
   "type": "module",
-  "workspaces": ["apps/*"],
+  "workspaces": [
+    "apps/*"
+  ],
   "scripts": {
     "clean": "rm -rf node_modules bun.lockb apps/*/node_modules apps/*/bun.lockb"
   },
@@ -12,5 +14,6 @@
   },
   "peerDependencies": {
     "typescript": "^5.4.5"
-  }
+  },
+  "packageManager": "yarn@1.22.21+sha1.1959a18351b811cdeedbd484a8f86c3cc3bbaf72"
 }

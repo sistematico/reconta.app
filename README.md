@@ -1,34 +1,30 @@
-# 🌰 Bun Workspaces Monorepo Template
+# 🐷 ReConta
 
-To install dependencies:
+<p style="text-align: center;">
+  <img src="./apps/site/public/images/porco.jpg" alt="ReConta" />
+</p>
+
+## Uso
+
+Instalar as dependências:
 
 ```bash
 bun install
 ```
 
-To run:
+Rodar em modo de desenvolvimento:
 
 ```bash
 bun apps/site/index.ts
 ```
 
-## 📰 References
+## 📰 Referências
 
-- [https://bun.sh/guides/install/workspaces](https://bun.sh/guides/install/workspaces)
-- [https://bun.sh/docs/cli/install#workspaces](https://bun.sh/docs/cli/install#workspaces)
-- [https://bun.sh/docs/install/workspaces](https://bun.sh/docs/install/workspaces)
-- [https://github.com/colinhacks/bun-workspaces](https://github.com/colinhacks/bun-workspaces)
-- [https://docs.npmjs.com/cli/v10/using-npm/workspaces](https://docs.npmjs.com/cli/v10/using-npm/workspaces)
+- Soon...
 
 ## 🕐 ChangeLog
 
-- `2024/03/29` - updated bun to 1.0.36
-  - Modified [.gitignore](./.gitignore)
-  - Upgraded TypeScript to `5.4.3` [package.json](./package.json)
-- `2024/01/17` - updated bun to 1.0.23
-  - Added [Github Action](./.github/workflows/deploy.yml)
-  - Added [deploy script](./scripts/deploy.sh)
-- `2023/12/29` - updated bun to 1.0.20
+- `2024/06/16` - Basic scaffolding using [Bun Workspaces](https://github.com/sistematico/bun-workspaces-template)
 
-This project was created using `bun init` in bun v1.0.36.
+This project was created using `bun init` in bun v1.1.13.
 [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
